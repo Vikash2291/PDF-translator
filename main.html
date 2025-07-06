@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EARN MONEY BY WATCHING ADS</title>
+
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+     crossorigin="anonymous"></script>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(to right, #4a00e0, #8e2de2);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    .ad {
+      background-color: #fff;
+      border-radius: 12px;
+      padding: 20px;
+      border: 1px solid #ddd;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .ad:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .container {
+      display: flex;
+      gap: 20px;
+      padding: 40px 5%;
+      flex-wrap: wrap;
+    }
+
+    .sidebar {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      min-width: 250px;
+    }
+
+    .main {
+      flex: 2;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 20px;
+    }
+
+    footer {
+      background-color: #f1f1f1;
+      padding: 30px 20px;
+      text-align: center;
+      font-size: 0.9rem;
+      border-top: 1px solid #ccc;
+    }
+
+    footer .ad {
+      margin-bottom: 15px;
+    }
+
+    footer a {
+      color: #4a00e0;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    .button-withdraw {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 25px;
+      background-color: #8e2de2;
+      color: #fff;
+      border-radius: 8px;
+      font-size: 1rem;
+      text-decoration: none;
+      transition: background 0.3s ease;
+      text-align: center;
+      white-space: nowrap;
+    }
+
+    .button-withdraw:hover {
+      background-color: #6c1bbd;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .button-withdraw {
+        font-size: 0.9rem;
+        padding: 8px 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>EARN MONEY BY WATCHING ADS</h1>
+    <p>100% Ad-Supported Platform – Just Watch & Earn</p>
+  </header>
+
+  <section style="text-align:center; padding: 30px; background: #fff; border-bottom: 1px solid #eee;">
+    <h2>💼 Your Wallet Balance</h2>
+    <p style="font-size: 2rem; font-weight: bold; color: #4a00e0;" id="wallet">₹0.00</p>
+
+    <button onclick="earnMoney()" style="
+      padding: 10px 25px;
+      background-color: #4a00e0;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s;
+    ">🎥 Watch Ad & Earn ₹1.00</button>
+
+    <br>
+    <a id="withdrawBtn" href="withdraw.html" class="button-withdraw">💸 Withdraw Funds</a>
+  </section>
+
+  <!-- Main Leaderboard Ad -->
+  <div class="ad" style="margin: 20px auto; max-width: 728px;">
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-436364865452890"
+         data-ad-slot="7539602684"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+
+  <div class="container">
+    <div class="sidebar">
+      <div class="ad">
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-436364865452890"
+             data-ad-slot="7539602684"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+      <div class="ad">Static Sidebar Ad (300x250)</div>
+    </div>
+
+    <div class="main">
+      <div class="ad">Affiliate Ad 1</div>
+      <div class="ad">Affiliate Ad 2</div>
+      <div class="ad">Sponsored Product</div>
+      <div class="ad">
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-436364865452890"
+             data-ad-slot="7539602684"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+      <div class="ad">Static Offer</div>
+      <div class="ad">Video Ad Placeholder</div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="ad">
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-436364865452890"
+           data-ad-slot="7539602684"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>
+           (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+    <p>
+      <a href="#">Privacy Policy</a> |
+      <a href="#">Terms of Service</a> |
+      <a href="#">Contact Us</a>
+    </p>
+  </footer>
+
+  <script>
+    let balance = 0;
+
+    function earnMoney() {
+      balance += 1;
+      document.getElementById('wallet').innerText = `₹${balance.toFixed(2)}`;
+    }
+
+    document.getElementById('withdrawBtn').addEventListener('click', function (e) {
+      this.href = `withdraw.html?amount=${balance.toFixed(2)}`;
+    });
+  </script>
+
+</body>
+</html>
